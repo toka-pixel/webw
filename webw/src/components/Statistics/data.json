@@ -1,0 +1,22 @@
+[
+    {
+      "id": "1",
+      "reachedNumber": 570,
+      "category": "Dowload"
+    },
+    {
+      "id": "2",
+      "reachedNumber": 70,
+      "category": "Active User"
+    },
+    {
+      "id": "3",
+      "reachedNumber": 500,
+      "category": "Positive Feedback"
+    },
+    {
+      "id": "4",
+      "reachedNumber": 200,
+      "category": "+ ratinge"
+    }
+  ]

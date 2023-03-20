@@ -1,0 +1,15 @@
+@import "../../styles/common";
+
+.statistics{
+    margin-top: $sectionMargin;
+    text-align: center;
+
+    h1{
+        color: $orange;
+        font-size: $titleFont-l;
+    }
+    p{
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+}

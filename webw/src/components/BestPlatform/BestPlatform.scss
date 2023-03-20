@@ -1,0 +1,23 @@
+@import "../../styles/common.scss";
+
+.bestPlatform {
+  margin-top: $sectionMargin;
+
+  .row{
+    align-items: center;
+  }
+  .img-blatForm_1{
+    width: 100%;
+  
+  }
+  .img-blatForm_2{
+     width: 100%;
+    
+  }
+
+
+
+  .bestPlatformInfo {
+    padding: 0 100px;
+  }
+}

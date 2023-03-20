@@ -1,0 +1,55 @@
+@import "./common";
+
+.container {
+  width: 85%;
+  margin: auto;
+
+  & {
+    @media (max-width: 400px) {
+      width: 95%;
+    }
+  }
+
+  // @include screen-mobile {
+  //   width: 95%;
+  // }
+}
+
+.whiteButton {
+  color: $orange;
+  background: $white;
+}
+
+.orangeButton {
+  color: $white;
+  background-color: $background_1;
+}
+.description {
+  color: $gray;
+  font-size: 18px;
+}
+
+input{
+  outline: none;
+  padding: 15px;
+  color: $black;
+}
+
+ul {
+  list-style: none;
+ 
+  li {
+   
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+}
+.logo{
+  font-weight: 500;
+  text-transform: uppercase;
+  .v{
+    text-transform: lowercase;
+    display: inline-block;
+  }
+ 
+}

@@ -1,0 +1,48 @@
+@import "../../styles/common.scss";
+
+.growProcess {
+  margin-top: $sectionMargin;
+
+  .line {
+    display: none;
+  }
+  .paragraphInfo {
+    margin-bottom: $marginBottom;
+  }
+  .process {
+    @include flex($align: flex-start);
+    margin-bottom: 19px;
+    .leftSide {
+      text-align: -webkit-center;
+      margin-right: 20px;
+      .processNum {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        line-height: 5px;
+        padding: 20px;
+        background-color: $orange;
+        color: $white;
+        @include flex();
+      }
+      .verticalLine {
+        width: 2px;
+        height: 57px;
+        background-color: $gray;
+      }
+      .verticalLine:nth-of-type(3) {
+        display: none;
+      }
+    }
+
+    .rightSide {
+      p {
+        font-weight: 600;
+      }
+    }
+  }
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+}

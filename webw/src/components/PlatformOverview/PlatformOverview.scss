@@ -1,0 +1,24 @@
+@import "../../styles/common";
+
+.platformOverview {
+ margin-top: $sectionMargin;
+  text-align: center;
+
+
+  .title {
+    color: $gray;
+  }
+  h2{
+    font-size: 30px;
+    font-weight: 700;
+
+  }
+  .description{
+    width: 50%;
+    margin: auto;
+  }
+  img{
+    width: 60% !important;
+  }
+ 
+}

@@ -1,0 +1,45 @@
+@import "../../styles//common";
+
+.happyUsers {
+  margin-top: $sectionMargin;
+
+    .reviews{
+        box-shadow: $box-shadow;
+    
+        padding: 40px 23px;
+      
+     border-radius: 5px;
+  
+  .userReview {
+    @include flex($align: self-start);
+    display: flex !important;
+    .col{
+    box-shadow: $box-shadow;
+    }
+    img {
+      width: 100px;
+      height: 200px;
+      margin-right: 15px;
+    }
+    .name {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+
+      font-size: 18px;
+    }
+    .job {
+      color: $gray;
+      font-weight: 500;
+    }
+    .review {
+      font-size: 13px;
+      margin-top: 12px;
+      color: $gray;
+      display: block;
+      text-overflow: ellipsis;
+      white-space: pre-line;
+    }
+  }
+}
+}

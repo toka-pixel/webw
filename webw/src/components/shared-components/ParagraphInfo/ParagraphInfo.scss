@@ -1,0 +1,46 @@
+@import "../../../styles/common";
+
+.paragraphInfo {
+   
+  .line {
+    background-color: $orange;
+
+    width: 79px;
+    height: 5px;
+
+    border-radius: 10px;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .bg_header{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .link {
+    margin-top: 17px;
+    span{
+        color:$orange;
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+    .arrow {
+      width: 20px;
+      height: 11px;
+      transition: all 0.3s ease-in-out;
+      margin-left: 51px;
+      cursor: pointer;
+      &:hover {
+        transform: translateX(15px);
+        
+      }
+    }
+  }
+
+  button{
+  margin-top: 20px;
+  }
+}
