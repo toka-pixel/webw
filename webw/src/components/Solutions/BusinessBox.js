@@ -18,7 +18,7 @@ const BusinessBox = () => {
     <Row className="businessBox">
       {data.map((item, index) => (
         <>
-        <Col xs={11} key={index}>
+        <Col xs={11} >
          
             <img
               src={`/imgs/${item.img}`}

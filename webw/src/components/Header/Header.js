@@ -8,7 +8,7 @@ import "./Header.scss";
 const Header = () => {
   const { useBreakpoint } = Grid;
   const screens = useBreakpoint();
-  console.log(screens);
+ 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -22,7 +22,7 @@ const Header = () => {
       window.removeEventListener("resize", handleWindowResize);
     };
   });
-  console.log(windowWidth);
+ 
   return (
     <div className="header container">
       {windowWidth < 1215 ? (

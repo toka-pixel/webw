@@ -7,19 +7,20 @@ const BestPlatform = (props) => {
   return (
     <div className="bestPlatform">
       <Row className="row">
-        <Col order={leftImg ? 1 : 2} className={`zindexImg `} xs={24}  sm={12} md={12}>
-          {leftImg ? (
-            <img src="/imgs/bestPlatform1.png" className="img-blatForm_1" />
-          ) : (
-            <img src="/imgs/bestPlatform2.png" className="img-blatForm_2" />
-          )}
-         
-        </Col>
- 
         <Col
+          order={leftImg ? 1 : 2}
+          className={`zindexImg `}
           xs={24}
           sm={12}
           md={12}
+        >
+          <img src="/imgs/bestPlatform2.png" className="img-blatForm" />
+        </Col>
+        <Col xs={1}></Col>
+        <Col
+          xs={24}
+          sm={11}
+          md={11}
           order={leftImg ? 2 : 1}
           className="bestPlatformInfo "
         >

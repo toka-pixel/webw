@@ -14,10 +14,11 @@ rgba(124,28,128,0.66 ) 0.00%,
 
 $border-radious:6px;
 
-$sectionMargin:150px;
+$sectionMargin:100px;
 $marginBottom:40px;
 
 $box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+$box-shadow_2: 0 2px 8px $background;
 
 $titleFont-s: 20px;
 $titleFont-m: 30px;

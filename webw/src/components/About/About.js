@@ -31,17 +31,17 @@ const About = () => {
         </Col>
       </Row>
 
-      <ul>
-        <Row>
+     
+        <Row className="clients" justify={'center'}>
           {clients.map((item, index) => (
             <Col xs={24} sm={12} md={4} key={index}>
-              <li key={index}>
+              <div className="one-client"  key={index}>
                 <img src={`/imgs/${item}`} />
-              </li>
+              </div>
             </Col>
           ))}
         </Row>
-      </ul>
+     
     </div>
   );
 };

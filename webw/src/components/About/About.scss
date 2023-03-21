@@ -5,13 +5,18 @@
 
   .about-img {
     position: relative;
-    margin-top: -76px;
+    margin-top: -77px;
     z-index: -1;
     background: rgba($color: #ff6057, $alpha: 1);
     border-bottom-right-radius: 146px;
     border-bottom-left-radius: 0px;
     padding: 52px 63px;
-    padding-bottom: 150px;
+    padding-bottom: 60px;
+    & {
+      @media (max-width: 1215px) {
+        margin-top: -84px;
+      }
+    }
   }
   .aboutInfo {
     padding-top: 100px;
@@ -42,16 +47,18 @@
     }
   }
 
-  ul {
-    @include flex();
-    text-align: center;
+  .clients {
     margin-top: 50px;
-    img {
-      width: 153px;
-      cursor: pointer;
+    .one-client {
+      text-align: center;
 
-      &:hover {
-        filter: drop-shadow(1px 1px 23px $orange);
+      img {
+        width: 153px;
+        cursor: pointer;
+
+        &:hover {
+          filter: drop-shadow(1px 1px 23px $orange);
+        }
       }
     }
   }

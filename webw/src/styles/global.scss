@@ -6,7 +6,7 @@
 
   & {
     @media (max-width: 400px) {
-      width: 95%;
+      width: 90%;
     }
   }
 
@@ -50,6 +50,7 @@ ul {
   .v{
     text-transform: lowercase;
     display: inline-block;
+    padding-right:2px;
   }
  
 }

@@ -25,8 +25,8 @@ const Footer = () => {
         <Col xs={24} sm={24} md={7}>
           <h2>Nos services</h2>
          
-            {data.map((item) => (
-              <p>{item}</p>
+            {data.map((item,index) => (
+              <p key={index}>{item}</p>
             ))}
         
         </Col>
